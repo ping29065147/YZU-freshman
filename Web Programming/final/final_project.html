@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>地震查詢</title>
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>	  
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/bootstrap.css">
+      <script>
+        function progress() {
+	    var aq = $("#aqindex").val();
+
+	    $.ajax({
+		url: "earthquake.php",
+		data: {
+		   aq: aq
+
+	        },
+		type: "POST",
+		datatype: "html",
+	        success: function( output ) {
+		   $( "#out" ).html(output);
+	        },
+		error : function(){
+		    alert( "Request failed." );
+		}
+	    });
+	}
+	function progress2() {
+	    var aq = 0;
+
+	    $.ajax({
+		url: "earthquake.php",
+		data: {
+		   aq: aq
+
+	        },
+		type: "POST",
+		datatype: "html",
+	        success: function( output ) {
+		   $( "#out" ).html(output);
+	        },
+		error : function(){
+		    alert( "Request failed." );
+		}
+	    });
+	}
+	
+	function progress3(){
+		window.location.href='final_project2.html';
+	}
+	
+	function progress4(){
+		window.location.href='final_project3.html';
+	}
+	
+	function progress5(){
+		window.location.href='final_project.html';
+	}
+      </script>
+      <style type = "text/css">
+         body  { font-family: sans-serif;
+                 background-color: lightyellow; 
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-position: center;
+					background-size: cover;
+				}
+         table { background-color: lightblue;
+                 border-collapse: collapse;
+                 border: 1px solid gray; }
+         td    { padding: 5px; }
+         tr:nth-child(odd) { background-color: white; }
+		 
+		 .sub { left: -100px;
+				}
+				
+		.sup {position: relative;
+				button: -10px; }
+      </style>
+   </head>
+    <body background="earth.png">
+		<!--<div align="center" style="background-color:black; height:40px; background-image:url('search.png');"><input style="background-image:url('chart.png');" id="jumphere" type="button" value="查詢" onclick="progress5()"><input style="background-image:url('chart.png');" id="jumpchart" type="button" value="圖表" onclick="progress3()"><input style="background-image:url('chart.png');" id="jumpmap" type="button" value="地圖" onclick="progress4()"></div> -->
+		
+		<div align="center" style="background-color:black; height:40px; width:100%; position:absolute; left:0px; top:0px;">
+			<button type="button" onclick="progress5()" ><img src="search.png" width="75" height="39"  style="position:absolute; top:0.5px;left:375px;"></button>
+			<button type="button" onclick="progress3()" ><img src="chart.png" width="75" height="39" type="button" style="position:absolute; top:0.5px;left:450.5px;"></button>
+			<button type="button" onclick="progress4()" ><img src="map.png" width="75" height="39" type="button" style="position:absolute; top:0.5px;left:526px;"></button>
+		</div> 	
+
+      <table><form method = "post" action = "#">
+         <font style="position:relative; top:40px;" face="標楷體"><p style="color:white;" align="center">選擇查詢:
+            <select id = "aqindex"  required />
+               <option>台北</option>
+               <option>新北</option>
+               <option>基隆</option>
+               <option>桃園</option>
+               <option>新竹</option>
+               <option>苗栗</option>
+			   <option>台中</option>
+			   <option>南投</option>
+			   <option>彰化</option>
+			   <option>雲林</option>
+			   <option>嘉義</option>
+			   <option>台南</option>
+			   <option>高雄</option>
+			   <option>屏東</option>
+			   <option>台東</option>
+			   <option>花蓮</option>
+			   <option>宜蘭</option>
+			   <option>金門</option>
+			   <option>馬祖</option>
+			   <option>澎湖</option>
+			</select></p>
+		 <div>
+         <p align="center"><input  id = "submit" type="button" value = "查詢" onclick="progress()">
+		 <input  id = "allsubmit" type="button" value = "查詢全部" onclick="progress2()"></p>
+		 </div>
+		 </font>
+      </form>
+	  </table>
+      <div style="position:relative; top:40px;" align="center" id="out"></div>
+   </body>
+</html>

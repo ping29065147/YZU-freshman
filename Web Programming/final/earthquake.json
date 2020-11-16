@@ -1,0 +1,4434 @@
+{
+ "cwbopendata": {
+  "identifier": "CWB-EQ-Catalog-2019",
+  "sender": "CWB_SC@scman.cwb.gov.tw",
+  "sent": "2019-12-16T00:00:00+08:00",
+  "status": "Actual",
+  "msgType": "Update",
+  "source": "CWB",
+  "scope": "Public",
+  "dataset": {
+   "datasetInfo": {
+    "datasetDescription": "地震目錄",
+    "datasetLanguage": "zh-TW",
+    "issueTime": "2019-12-16T00:00:00+08:00",
+    "parameter": [
+     {
+      "parameterName": "senderName",
+      "parameterValue": "中華民國交通部中央氣象局"
+     },
+     {
+      "parameterName": "schemaVer",
+      "parameterValue": "TW-CWB-XML-EQ:1.0"
+     }
+    ]
+   },
+   "catalog": {
+    "catalogType": "地震目錄",
+    "catalogInfo": {
+     "minimumMagnitude": "3.00",
+     "maximumMagnitude": "9.00",
+     "startTime": "2019-11-01T08:00:00+08:00",
+     "endTime": "2019-12-01T08:00:00+08:00",
+     "region": {
+      "westLon": {
+       "@unit": "度",
+       "#text": "119.000"
+      },
+      "eastLon": {
+       "@unit": "度",
+       "#text": "123.000"
+      },
+      "southLat": {
+       "@unit": "度",
+       "#text": "21.000"
+      },
+      "northLat": {
+       "@unit": "度",
+       "#text": "26.000"
+      }
+     },
+     "minimumDepth": {
+      "@unit": "公里",
+      "#text": "0.00"
+     },
+     "maximumDepth": {
+      "@unit": "公里",
+      "#text": "700.00"
+     },
+     "recordNumber": "91"
+    },
+    "earthquakeinfo": [
+     {
+      "originTime": "2019-11-01",
+	  "time": "21:28:39",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.329"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.598"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "36.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.04"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "216",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "16.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "99"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.32"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-02",
+	  "time": "06:49:40",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.339"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.644"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "43.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.11"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "253",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "89.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "216"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.46"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-02",
+	  "time": "16:39:30",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.758"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.860"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "50.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.56"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "239",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "16.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "109"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.33"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-02",
+	  "time": "20:45:15",
+	  "location": "新北",
+	  "locate": "石碇區隆盛里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.663"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "25.000"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "148.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.15"
+      },
+      "stationNumber": "67",
+      "phaseNumber": "125",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "7.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "41"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.44"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.6"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "00:28:09",
+	  "location": "宜蘭",
+	  "locate": "三星鄉大義村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.708"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.679"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "48.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.52"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "300",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "5.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "43"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.3"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "02:21:38",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.966"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.386"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "24.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.66"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "257",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "16.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "73"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.25"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "02:40:15",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.961"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.398"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "19.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.13"
+      },
+      "stationNumber": "64",
+      "phaseNumber": "91",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "19.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "81"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.31"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "02:40:32",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.908"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.410"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "26.5"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.47"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "157",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "13.80"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "83"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.46"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "03:06:26",
+	  "location": "宜蘭",
+	  "locate": "南澳鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.914"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.410"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "25.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.50"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "167",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "14.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "79"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.47"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "03:26:35",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.908"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.414"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "26.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.46"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "270",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "13.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "72"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.52"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "10:02:18",
+	  "location": "花蓮",
+	  "locate": "秀林鄉崇德村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.570"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.232"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "43.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.84"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "256",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "6.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "46"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.29"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "11:09:15",
+	  "location": "花蓮",
+	  "locate": "秀林鄉崇德村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.566"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.230"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "43.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.23"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "209",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "6.80"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "43"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.3"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "14:24:55",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.418"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.461"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "22.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.40"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "191",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "24.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "111"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.45"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-03",
+	  "time": "17:34:50",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.970"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.409"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "26.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.01"
+      },
+      "stationNumber": "83",
+      "phaseNumber": "147",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "16.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "74"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.26"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-04",
+	  "time": "03:43:40",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.510"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.336"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "52.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.02"
+      },
+      "stationNumber": "90",
+      "phaseNumber": "148",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "89.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "199"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.43"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-04",
+	  "time": "07:11:03",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.584"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.736"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "36.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.22"
+      },
+      "stationNumber": "79",
+      "phaseNumber": "136",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "50.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "189"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.37"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.6"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-04",
+	  "time": "11:29:01",
+	  "location": "台東",
+	  "locate": "綠島鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.356"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.696"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "35.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.37"
+      },
+      "stationNumber": "97",
+      "phaseNumber": "168",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "11.80"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "72"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.19"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-04",
+	  "time": "11:32:18",
+	  "location": "花蓮",
+	  "locate": "秀林鄉水源村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.507"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.020"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "16.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.97"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "268",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "6.20"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "29"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-04",
+	  "time": "19:39:26",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.461"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.443"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "15.7"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.25"
+      },
+      "stationNumber": "72",
+      "phaseNumber": "115",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "25.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "139"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.46"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-05",
+	  "time": "03:23:04",
+	  "location": "台中",
+	  "locate": "新社區協成里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.816"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.165"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "27.5"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.45"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "273",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "13.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "17"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.22"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-05",
+	  "time": "05:56:04",
+	  "location": "台東",
+	  "locate": "綠島鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.717"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.768"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "147.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.10"
+      },
+      "stationNumber": "49",
+      "phaseNumber": "80",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "29.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "289"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.22"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-05",
+	  "time": "08:50:19",
+	  "location": "宜蘭",
+	  "locate": "南澳鄉南澳鎮朝陽里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.821"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.455"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "17.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.66"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "186",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "4.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "69"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.29"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-05",
+	  "time": "12:35:48",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.089"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.620"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "23.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.15"
+      },
+      "stationNumber": "22",
+      "phaseNumber": "34",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "39.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "265"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.3"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-05",
+	  "time": "18:45:19",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.415"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.907"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "14.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.17"
+      },
+      "stationNumber": "75",
+      "phaseNumber": "95",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "43.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "149"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.4"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-05",
+	  "time": "19:41:53",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.202"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.493"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "75.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.20"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "306",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "11.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "97"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.35"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-06",
+	  "time": "01:05:55",
+	  "location": "宜蘭",
+	  "locate": "頭城鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.071"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.812"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "8.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.50"
+      },
+      "stationNumber": "90",
+      "phaseNumber": "133",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "13.40"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "101"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.36"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-06",
+	  "time": "18:38:07",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.388"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.817"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "14.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.09"
+      },
+      "stationNumber": "73",
+      "phaseNumber": "132",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "45.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "142"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.43"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-07",
+	  "time": "03:08:25",
+	  "location": "宜蘭",
+	  "locate": "大同鄉太平村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.518"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.562"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "10.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.10"
+      },
+      "stationNumber": "95",
+      "phaseNumber": "141",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "3.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "28"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.39"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-07",
+	  "time": "03:08:33",
+	  "location": "宜蘭",
+	  "locate": "大同鄉太平村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.524"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.571"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "10.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.15"
+      },
+      "stationNumber": "29",
+      "phaseNumber": "41",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "3.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "81"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.34"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-07",
+	  "time": "16:56:07",
+	  "location": "台中",
+	  "locate": "新社區中和里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.840"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.164"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "31.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.08"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "186",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "13.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "27"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.24"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-07",
+	  "time": "17:37:40",
+	  "location": "台東",
+	  "locate": "蘭嶼鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.509"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.992"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "15.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.01"
+      },
+      "stationNumber": "58",
+      "phaseNumber": "104",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "7.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "180"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.38"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-07",
+	  "time": "23:41:20",
+	  "location": "台東",
+	  "locate": "成功鎮忠孝里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.356"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.179"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "16.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.02"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "218",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "4.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "86"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.32"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-08",
+	  "time": "04:34:16",
+	  "location": "屏東",
+	  "locate": "南海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.877"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.467"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "53.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.23"
+      },
+      "stationNumber": "29",
+      "phaseNumber": "42",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "48.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "279"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.32"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.8"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-08",
+	  "time": "06:02:28",
+	  "location": "宜蘭",
+	  "locate": "頭城鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.982"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.901"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "101.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.54"
+      },
+      "stationNumber": "86",
+      "phaseNumber": "152",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "7.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "107"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.4"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.8"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-08",
+	  "time": "15:29:01",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.890"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.543"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "38.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.10"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "238",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "5.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "94"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-08",
+	  "time": "21:56:16",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.148"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.846"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "5.5"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.03"
+      },
+      "stationNumber": "86",
+      "phaseNumber": "155",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "20.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "123"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.44"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "01:09:59",
+	  "location": "花蓮",
+	  "locate": "卓溪鄉長良林道",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.236"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.271"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "16.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.06"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "201",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "10.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "41"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.24"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "04:13:56",
+	  "location": "花蓮",
+	  "locate": "吉安鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.736"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.899"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "51.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.10"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "244",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "13.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "156"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.31"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "04:18:57",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.171"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.841"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "11.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.03"
+      },
+      "stationNumber": "92",
+      "phaseNumber": "184",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "23.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "126"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.41"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "05:10:36",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.391"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.748"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "7.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.08"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "180",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "46.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "133"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.48"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "07:03:03",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.502"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.793"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "46.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.07"
+      },
+      "stationNumber": "58",
+      "phaseNumber": "93",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "34.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "265"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.31"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "07:40:15",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.111"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.792"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "50.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.52"
+      },
+      "stationNumber": "98",
+      "phaseNumber": "181",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "28.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "225"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.34"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "07:47:05",
+	  "location": "宜蘭",
+	  "locate": "壯圍鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.835"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.811"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "83.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.75"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "239",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "4.80"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "67"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.24"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-09",
+	  "time": "12:08:10",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.150"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.782"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "90.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.72"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "227",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "22.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "123"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-10",
+	  "time": "08:13:21",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.924"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.939"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "37.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.46"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "280",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "31.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "122"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.34"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-11",
+	  "time": "00:01:27",
+	  "location": "台東",
+	  "locate": "成功鎮忠孝里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.359"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.195"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "17.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.15"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "278",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "3.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "66"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.36"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-11",
+	  "time": "05:48:45",
+	  "location": "苗栗",
+	  "locate": "卓蘭鎮內灣里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.912"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.300"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "32.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.01"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "215",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "4.20"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "34"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-12",
+	  "time": "00:54:58",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.662"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.053"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "114.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "5.02"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "298",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "105.40"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "224"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.36"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-12",
+	  "time": "02:11:33",
+	  "location": "宜蘭",
+	  "locate": "頭城鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.922"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.878"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "109.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.55"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "329",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "4.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "51"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.25"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-13",
+	  "time": "04:53:25",
+	  "location": "新北",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.342"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "25.015"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "141.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.51"
+      },
+      "stationNumber": "90",
+      "phaseNumber": "161",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "35.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "160"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.6"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-13",
+	  "time": "10:17:22",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.405"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.721"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "13.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.05"
+      },
+      "stationNumber": "69",
+      "phaseNumber": "105",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "48.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "126"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.44"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-13",
+	  "time": "13:37:00",
+	  "location": "高雄",
+	  "locate": "杉林區木梓里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.525"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.036"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "9.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.13"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "189",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "8.40"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "52"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.39"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-14",
+	  "time": "08:16:30",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.193"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.701"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "27.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.10"
+      },
+      "stationNumber": "42",
+      "phaseNumber": "74",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "65.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "232"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.4"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-15",
+	  "time": "08:21:30",
+	  "location": "屏東",
+	  "locate": "南海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.061"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.392"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "27.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.45"
+      },
+      "stationNumber": "78",
+      "phaseNumber": "103",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "60.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "267"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.45"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-15",
+	  "time": "08:28:00",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.108"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.429"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "18.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.51"
+      },
+      "stationNumber": "53",
+      "phaseNumber": "76",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "58.40"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "282"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.44"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-15",
+	  "time": "11:25:24",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.091"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.429"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "29.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.65"
+      },
+      "stationNumber": "77",
+      "phaseNumber": "103",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "57.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "282"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.38"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.6"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-15",
+	  "time": "13:25:47",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.090"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.512"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "70.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.03"
+      },
+      "stationNumber": "45",
+      "phaseNumber": "80",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "84.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "300"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.42"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.2"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-16",
+	  "time": "11:45:31",
+	  "location": "屏東",
+	  "locate": "南海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.084"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.448"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "28.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.68"
+      },
+      "stationNumber": "93",
+      "phaseNumber": "117",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "55.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "263"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.4"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-17",
+	  "time": "03:14:38",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.779"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.933"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "49.5"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.02"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "205",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "17.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "179"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-17",
+	  "time": "06:13:35",
+	  "location": "屏東",
+	  "locate": "南海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.035"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.142"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "50.7"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.65"
+      },
+      "stationNumber": "31",
+      "phaseNumber": "47",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "86.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "303"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.56"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.2"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-17",
+	  "time": "12:06:26",
+	  "location": "台東",
+	  "locate": "延平鄉紅葉村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.965"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.896"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "5.6"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.11"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "196",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "14.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "32"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-17",
+	  "time": "14:10:41",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.616"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.195"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "47.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.06"
+      },
+      "stationNumber": "82",
+      "phaseNumber": "154",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "49.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "169"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-17",
+	  "time": "20:08:47",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.771"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.397"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "65.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.45"
+      },
+      "stationNumber": "83",
+      "phaseNumber": "127",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "129.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "245"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.54"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.6"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.4"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "02:14:25",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.143"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.848"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "13.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.11"
+      },
+      "stationNumber": "90",
+      "phaseNumber": "160",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "20.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "116"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.39"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "02:56:57",
+	  "location": "宜蘭",
+	  "locate": "南澳鄉金岳村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.696"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.529"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "59.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.29"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "300",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "11.80"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "62"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "04:37:10",
+	  "location": "日本",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.500"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.939"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "119.7"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.21"
+      },
+      "stationNumber": "91",
+      "phaseNumber": "161",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "51.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "172"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.33"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "17:40:29",
+	  "location": "台東",
+	  "locate": "成功鎮信義里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.337"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.047"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "20.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.19"
+      },
+      "stationNumber": "61",
+      "phaseNumber": "107",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "6.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "126"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.33"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "18:31:42",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.267"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.517"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "37.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.41"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "199",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "76.40"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "203"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.36"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.0"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "19:28:17",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.767"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.120"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "150.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.30"
+      },
+      "stationNumber": "36",
+      "phaseNumber": "40",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "99.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "304"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.49"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.6"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "21:18:07",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.574"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.284"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "192.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.10"
+      },
+      "stationNumber": "15",
+      "phaseNumber": "19",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "79.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "304"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.43"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.0"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.1"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-18",
+	  "time": "23:18:23",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.057"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.576"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "46.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.24"
+      },
+      "stationNumber": "66",
+      "phaseNumber": "103",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "41.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "272"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.45"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-19",
+	  "time": "17:15:39",
+	  "location": "台東",
+	  "locate": "卑南鄉利嘉村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.045"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.785"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "4.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.73"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "165",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "5.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "53"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.32"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-20",
+	  "time": "00:58:55",
+	  "location": "宜蘭",
+	  "locate": "蘇澳鎮",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.947"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.409"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "29.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.13"
+      },
+      "stationNumber": "93",
+      "phaseNumber": "165",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "17.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "119"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.25"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-20",
+	  "time": "17:27:19",
+	  "location": "屏東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.113"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.434"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "21.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.40"
+      },
+      "stationNumber": "55",
+      "phaseNumber": "84",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "58.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "284"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.51"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-21",
+	  "time": "13:23:15",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.657"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.590"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "56.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.15"
+      },
+      "stationNumber": "48",
+      "phaseNumber": "82",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "121.80"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "262"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.51"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.8"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "1.8"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-21",
+	  "time": "19:54:11",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.596"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.061"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "25.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.33"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "210",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "23.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "152"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.4"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-22",
+	  "time": "20:23:36",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.268"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.063"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "46.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.05"
+      },
+      "stationNumber": "95",
+      "phaseNumber": "165",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "8.20"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "149"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.33"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.5"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-23",
+	  "time": "04:11:13",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.152"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.605"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "73.9"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.07"
+      },
+      "stationNumber": "92",
+      "phaseNumber": "160",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "29.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "210"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.27"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-23",
+	  "time": "18:56:33",
+	  "location": "台南",
+	  "locate": "東區",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.168"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "22.974"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "18.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.00"
+      },
+      "stationNumber": "65",
+      "phaseNumber": "109",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "4.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "127"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.34"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-24",
+	  "time": "04:41:13",
+	  "location": "台東",
+	  "locate": "海端鄉利稻村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.917"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.157"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "1.4"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.28"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "225",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "11.50"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "26"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.42"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-25",
+	  "time": "05:43:49",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.910"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.124"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "50.7"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.30"
+      },
+      "stationNumber": "67",
+      "phaseNumber": "132",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "28.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "175"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-25",
+	  "time": "09:32:42",
+	  "location": "花蓮",
+	  "locate": "新城鄉",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.747"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.034"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "5.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "4.60"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "279",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "15.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "108"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.36"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-25",
+	  "time": "09:48:04",
+	  "location": "菲律賓",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.855"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.236"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "172.5"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.55"
+      },
+      "stationNumber": "29",
+      "phaseNumber": "54",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "89.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "310"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.46"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "1.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.7"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-26",
+	  "time": "18:33:12",
+	  "location": "花蓮",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.723"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.448"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "82.7"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.22"
+      },
+      "stationNumber": "87",
+      "phaseNumber": "155",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "28.60"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "135"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-27",
+	  "time": "08:18:38",
+	  "location": "台東",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.844"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "21.928"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "9.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.15"
+      },
+      "stationNumber": "60",
+      "phaseNumber": "86",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "27.90"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "280"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.44"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-28",
+	  "time": "02:08:25",
+	  "location": "宜蘭",
+	  "locate": "冬山鄉三奇村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.819"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.635"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "67.2"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.02"
+      },
+      "stationNumber": "93",
+      "phaseNumber": "162",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "5.10"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "67"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.28"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-28",
+	  "time": "18:46:44",
+	  "location": "台南",
+	  "locate": "南化區關山里",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "120.585"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.182"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "8.1"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.28"
+      },
+      "stationNumber": "90",
+      "phaseNumber": "160",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "5.70"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "34"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.34"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-29",
+	  "time": "08:14:53",
+	  "location": "宜蘭",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "122.508"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.895"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "20.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.07"
+      },
+      "stationNumber": "40",
+      "phaseNumber": "69",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "53.30"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "196"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.25"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.4"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.9"
+      },
+      "quality": "C",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-30",
+	  "time": "00:41:33",
+	  "location": "花蓮",
+	  "locate": "壽豐鄉平和村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.544"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "23.888"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "46.0"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.24"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "195",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "6.20"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "70"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.35"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-11-30",
+	  "time": "22:57:59",
+	  "location": "彰化",
+	  "locate": "外海",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "119.788"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.240"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "26.8"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.74"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "256",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "65.40"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "58"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.52"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.2"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.3"
+      },
+      "quality": "D",
+      "reviewStatus": "F"
+     },
+     {
+      "originTime": "2019-12-01",
+	  "time": "00:02:31",
+	  "location": "苗栗",
+	  "locate": "南庄鄉東河村",
+      "epicenter": {
+       "epicenterLon": {
+        "@unit": "度",
+        "#text": "121.046"
+       },
+       "epicenterLat": {
+        "@unit": "度",
+        "#text": "24.527"
+       }
+      },
+      "depth": {
+       "@unit": "公里",
+       "#text": "6.3"
+      },
+      "magnitude": {
+       "magnitudeType": "芮氏規模",
+       "magnitudeValue": "3.00"
+      },
+      "stationNumber": "99",
+      "phaseNumber": "230",
+      "minimumDistance": {
+       "@unit": "公里",
+       "#text": "12.00"
+      },
+      "gap": {
+       "@unit": "度",
+       "#text": "26"
+      },
+      "rms": {
+       "@unit": "秒",
+       "#text": "0.23"
+      },
+      "erh": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "erz": {
+       "@unit": "公里",
+       "#text": "0.1"
+      },
+      "quality": "B",
+      "reviewStatus": "F"
+     }
+    ]
+   }
+  }
+ }
+}

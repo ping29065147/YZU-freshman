@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>四資迎新報名</title>
+		
+		<style type = "text/css">
+			h1	{color: purple;}
+			p	{color: black;}
+			em	{font-weight: bold;
+				color: deeppink;}
+		</style>
+		
+		<style type = "text/css">
+			@media screen
+			{
+				body  { background-color: #FFE8E8; }
+			}
+		</style>
+		
+		<link rel = "stylesheet" type = "text/css"
+			href = "style.css">
+	</head>
+	
+	<body>
+		<div style="background-color:#FFDEDE;">
+			<br>
+			<h1 align="center">四資迎新-監獄風雲</h1>
+			<p align="center">資工+資管+資英+資傳 聯合舉辦</p>
+			<p align="center">2019暑假最精彩的活動~</p>
+			<p align="center">心動不如馬上行動~ 趕快來報名喔~</p>
+			<br>
+		</div>
+		<div style="background-color:#FFD4D4;">
+			<br>
+			<ul>
+				<p><strong>營隊資訊</strong></p>
+				<li>時間: <em>8/29 - 8/23</em></li>
+				<li>地點: <em>元智大學</em></li>
+				<li>報名費用: <em>4000元 ~ 早鳥優惠3700元</em></li>
+			</ul>
+			<br><br>
+		</div>
+		<div style="background-color:#FFC9C9;">
+			<br><br>
+			<h2><strong>報名表單</h2>
+			<form method = "post" action = "1083321_HW2.php">
+				<input type = "hidden" name = "recipient"
+					value = "detitel@deitel.com">
+				<input type = "hidden" name = "subject"
+					value = "Feedback Form">
+				<input type = "hidden" name = "redirect"
+					value = "main.html">
+					
+					<p><label>姓名:
+						<input name = "name" type = "text" size = "25" placeholder = "xxx"
+							maxlength = "30" required />
+					</label></p>
+					
+					<p><label>性別:
+						<select name = "gender">
+							<option value = "boy">男</option>
+							<option value = "girl">女</option>
+							<option value = "other">其他</option>
+						</select>
+					</label></p>
+					
+					<p><label>學號:
+						<input name = "num" type = "text" placeholder = "sxxxxxxx"
+							pattern = "[s]\d{7}" required />
+					</label></p>
+					
+					<p><label>身分證字號:
+						<input name = "self" type "text" placeholder = "yxxxxxxxxx"
+							pattern = "[Z-A]\d{9} required" />
+					</label></p>
+					
+					<p><label>E-mail:
+						<input name = "email" type = "text" placeholder = "xxxxx@gmail.com"
+							required />
+					</label></p>
+					
+					<p><label>手機號碼:
+						<input name = "tel" type = "text" placeholder = "xxxx-xxx-xxx"
+							pattern = "\d{4}-\d{3}-\d{3}" required />
+					</label></p>
+					
+					<p><label>飲食習慣:
+						<input name = "meal" type = "radio" value = "meat">葷
+						<input name = "meal" type = "radio" value = "vegetable">素
+					</label></p>
+					
+					<p><label>備註:<br>
+						<textarea name = "comments"
+							rows = "4" cols = "28"></textarea>
+					</label></p>
+					
+					<p>
+						<input type = "submit" value = "確認">
+						<input type = "reset" value = "清除">
+					</p>
+					<br><br>
+				
+		
+			</form>
+		</div>
+	</body>
+</html>

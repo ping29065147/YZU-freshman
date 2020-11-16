@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>地震查詢</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZeRXUn80EFE_PzJiH8ZPSxnRGtJ0Td6M
+"></script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>	
+    <script>
+    /*$(function(){
+	var map = new google.maps.Map(document.getElementById('map'), {
+	    center: {lat: 24.165000, lng:120.816000 },
+	    zoom: 14
+	});
+	var myCenter=new google.maps.LatLng(24.165000,120.816000);
+	var marker=new google.maps.Marker({
+	    position:myCenter,
+	});
+	marker.setMap(map);
+	var infowindow = new google.maps.InfoWindow({
+	    content:"台中新社區協成里"
+	});
+	infowindow.open(map,marker);
+    });*/
+	
+	$(function(){
+		var map;
+		var markers = [];
+		var position = [
+		  {label:'台東外海',lat:22.598,lng:121.329},
+		  {label:'台東外海',lat:22.644,lng:122.339},
+		  {label:'花蓮外海',lat:23.860,lng:121.758},
+		  {label:'新北石碇區隆盛里',lat:25.000,lng:121.663},
+		  {label:'宜蘭三星鄉大義村',lat:24.679,lng:121.708},
+		  {label:'宜蘭蘇澳鎮',lat:24.386,lng:121.966},
+		  {label:'宜蘭蘇澳鎮',lat:24.398,lng:121.961},
+		  {label:'宜蘭蘇澳鎮',lat:24.410,lng:121.908},
+		  {label:'宜蘭南澳鄉',lat:24.410,lng:121.914},
+		  {label:'宜蘭蘇澳鎮',lat:24.414,lng:121.908},
+		  {label:'花蓮秀林鄉崇德村',lat:24.232,lng:121.570},
+		  {label:'花蓮秀林鄉崇德村',lat:24.230,lng:121.566},
+		  {label:'台東外海',lat:22.461,lng:121.418},
+		  {label:'宜蘭蘇澳鎮',lat:24.409,lng:121.970},
+		  {label:'花蓮外海',lat:23.336,lng:122.510},
+		  {label:'花蓮外海',lat:23.736,lng:122.584},
+		  {label:'台東綠島鄉',lat:22.696,lng:121.356},
+		  {label:'花蓮秀林鄉水源村',lat:24.020,lng:121.507},
+		  {label:'台東外海',lat:22.443,lng:121.461},
+		  {label:'台中新社區協成里',lat:24.165,lng:120.816},
+		  {label:'台東綠島鄉',lat:21.768,lng:121.717},
+		  {label:'宜蘭南澳鄉南澳鎮朝陽里',lat:24.455,lng:121.821},
+		  {label:'屏東外海',lat:21.620,lng:121.089},
+		  {label:'宜蘭外海',lat:24.907,lng:122.415},
+		  {label:'宜蘭外海',lat:24.493,lng:122.202},
+		  {label:'宜蘭頭城鎮',lat:24.812,lng:122.071},
+		  {label:'宜蘭外海',lat:24.817,lng:122.388},
+		  {label:'宜蘭大同鄉太平村',lat:24.562,lng:121.518},
+		  {label:'宜蘭大同鄉太平村',lat:24.571,lng:121.524},
+		  {label:'台中新社區中和里',lat:24.164,lng:120.840},
+		  {label:'台東蘭嶼鄉',lat:21.992,lng:121.509},
+		  {label:'台東成功鎮忠孝里',lat:23.179,lng:121.356},
+		  {label:'屏東南海',lat:21.467,lng:120.877},
+		  {label:'宜蘭頭城鎮',lat:24.901,lng:121.982},
+		  {label:'宜蘭蘇澳鎮',lat:24.543,lng:121.890},
+		  {label:'宜蘭外海',lat:24.846,lng:122.148},
+		  {label:'花蓮卓溪鄉長良林道',lat:23.271,lng:121.236},
+		  {label:'花蓮吉安鄉',lat:23.899,lng:121.736},
+		  {label:'宜蘭外海',lat:24.841,lng:122.171},
+		  {label:'宜蘭外海',lat:24.748,lng:122.391},
+		  {label:'屏東外海',lat:21.793,lng:120.502},
+		  {label:'屏東外海',lat:21.792,lng:121.111},
+		  {label:'宜蘭壯圍鄉',lat:24.811,lng:121.835},
+		  {label:'宜蘭外海',lat:24.782,lng:122.150},
+		  {label:'花蓮外海',lat:23.939,lng:121.924},
+		  {label:'台東成功鎮忠孝里',lat:23.195,lng:121.359},
+		  {label:'苗栗卓蘭鎮內灣里',lat:24.300,lng:120.912},
+		  {label:'屏東外海',lat:21.053,lng:121.662},
+		  {label:'宜蘭頭城鎮',lat:24.878,lng:121.922},
+		  {label:'新北外海',lat:25.015,lng:122.342},
+		  {label:'宜蘭外海',lat:24.721,lng:122.405},
+		  {label:'高雄杉林區木梓里',lat:23.036,lng:120.525},
+		  {label:'屏東外海',lat:21.701,lng:120.193},
+		  {label:'屏東南海',lat:21.392,lng:121.061},
+		  {label:'屏東外海',lat:21.429,lng:121.108},
+		  {label:'屏東外海',lat:21.429,lng:121.091},
+		  {label:'屏東外海',lat:21.512,lng:120.090},
+		  {label:'屏東南海',lat:21.448,lng:121.084},
+		  {label:'花蓮外海',lat:23.933,lng:121.779},
+		  {label:'屏東南海',lat:21.142,lng:121.035},
+		  {label:'台東延平鄉紅葉村',lat:22.896,lng:120.965},
+		  {label:'花蓮外海',lat:24.195,lng:122.616},
+		  {label:'台東外海',lat:22.397,lng:122.771},
+		  {label:'宜蘭外海',lat:24.848,lng:122.143},
+		  {label:'宜蘭南澳鄉金岳村',lat:24.529,lng:121.696},
+		  {label:'日本外海',lat:24.939,lng:122.500},
+		  {label:'台東成功鎮信義里',lat:23.047,lng:121.337},
+		  {label:'花蓮外海',lat:23.517,lng:122.267},
+		  {label:'屏東外海',lat:21.120,lng:121.767},
+		  {label:'屏東外海',lat:21.284,lng:121.574},
+		  {label:'屏東外海',lat:21.576,lng:121.057},
+		  {label:'台東卑南鄉利嘉村',lat:22.785,lng:121.045},
+		  {label:'宜蘭蘇澳鎮',lat:24.409,lng:121.947},
+		  {label:'屏東外海',lat:21.434,lng:121.113},
+		  {label:'台東外海',lat:22.590,lng:122.657},
+		  {label:'台東外海',lat:23.061,lng:121.596},
+		  {label:'花蓮外海',lat:24.063,lng:122.268},
+		  {label:'宜蘭外海',lat:24.605,lng:122.152},
+		  {label:'台南東區',lat:22.974,lng:120.168},
+		  {label:'台東海端鄉利稻村',lat:23.157,lng:120.917},
+		  {label:'花蓮外海',lat:24.124,lng:121.910},
+		  {label:'花蓮新城鄉',lat:24.034,lng:121.747},
+		  {label:'菲律賓外海',lat:21.236,lng:121.855},
+		  {label:'花蓮外海',lat:24.448,lng:122.723},
+		  {label:'台東外海',lat:21.928,lng:121.844},
+		  {label:'宜蘭冬山鄉三奇村',lat:24.635,lng:121.819},
+		  {label:'台南南化區關山里',lat:23.182,lng:120.585},
+		  {label:'宜蘭外海',lat:24.895,lng:122.508},
+		  {label:'花蓮壽豐鄉平和村',lat:23.888,lng:121.544},
+		  {label:'彰化外海',lat:24.240,lng:119.788},
+		  {label:'苗栗南庄鄉東河村',lat:24.527,lng:121.046}
+		];
+
+		function initMap() {
+		  map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 19,
+			center: {
+			  lat: 25.0336962,
+			  lng: 121.5643673
+			}
+		  });
+
+		  for (var i = 0; i < position.length; i++) {
+			addMarker(i);
+		  }
+		}
+
+		function addMarker(e) {
+		  markers[e] = new google.maps.Marker({
+			position: {
+			  lat: position[e].lat,
+			  lng: position[e].lng
+			},
+			map: map,
+			label: position[e].label
+		  });
+		}
+		
+		initMap();
+	});
+	
+	function progress3(){
+		window.location.href='final_project.html';
+	}
+	
+	function progress4(){
+		window.location.href='final_project2.html';
+	}
+	
+	function progress5(){
+		window.location.href='final_project3.html';
+	}
+    </script>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+      }
+      #map {
+        height: 70%;
+      }
+	  
+	.sub  {	position: relative;
+
+			bottom: -50px;		}
+	
+    </style>
+
+   </head>
+    <body background="earth.png">
+		<div align="center" style="background-color:black; height:40px;">
+			<button type="button" onclick="progress3()" ><img src="search.png" width="75" height="39"  style="position:absolute; top:0.5px;left:375px;"></button>
+			<button type="button" onclick="progress4()" ><img src="chart.png" width="75" height="39" type="button" style="position:absolute; top:0.5px;left:450.5px;"></button>
+			<button type="button" onclick="progress5()" ><img src="map.png" width="75" height="39" type="button" style="position:absolute; top:0.5px;left:526px;"></button>
+		</div> 	
+		<div  class="sub" id="map"></div>
+   </body>
+</html>

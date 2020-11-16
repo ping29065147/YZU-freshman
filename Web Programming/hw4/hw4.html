@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+		<title> 縮網址 </title>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>	
+		<script>
+			function progress() {
+			var sel = $("#save").val();
+			$.ajax({
+			url: "index.php",
+			data: {
+			   save: sel
+				},
+			type: "POST",
+			datatype: "html",
+				success: function( output ) {
+			   $( "#out" ).html(output);
+				},
+			error : function(){
+				alert( "Request failed." );
+			}
+			});
+		}
+		</script>
+	</head>
+	<body>	
+		<form  method = "post" action = "#">
+			<p>
+			<input id = "save" type = "text" required />
+			<input id = "submit" type ="button" value = "送出" onclick="progress()">
+			</p>
+		</form>	
+		<div id="out"></div>
+	</body>
+</html>

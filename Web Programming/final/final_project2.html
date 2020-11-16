@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>地震查詢</title>
+          <script type="text/javascript"
+          src="https://www.google.com/jsapi?autoload={
+            'modules':[{
+              'name':'visualization',
+              'version':'1',
+              'packages':['corechart']
+            }]
+          }"></script>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
+		$(function(){
+			var data = google.visualization.arrayToDataTable([
+			  ['縣市', '次數'],
+			  ['台北',  0],
+			  ['新北',  2],
+			  ['基隆',  0],
+			  ['桃園',  0],
+			  ['新竹',  0],
+			  ['苗栗',  2],
+			  ['台中',  2],
+			  ['南投',  0],
+			  ['彰化',  1],
+			  ['嘉義',  0],
+			  ['台南',  2],
+			  ['高雄',  1],
+			  ['屏東',  16],
+			  ['台東',  17],
+			  ['花蓮',  17],
+			  ['宜蘭',  27],
+			  ['金門',  0],
+			  ['媽祖',  0],
+			  ['澎湖',  0]
+			]);
+			var options = {
+			  title: '地震發生次數',
+			  curveType: 'function',
+			  legend: { position: 'right' }
+			};
+			var chart = new google.visualization.ColumnChart(document.getElementById('curve_chart'));
+			chart.draw(data, options);
+		  });
+
+	function progress3(){
+		window.location.href='final_project.html';
+	}
+	
+	function progress4(){
+		window.location.href='final_project3.html';
+	}
+	
+	function progress5(){
+		window.location.href='final_project2.html';
+	}
+    </script>
+      <style type = "text/css">
+         body  { font-family: sans-serif;
+                 background-color: lightyellow; 
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-position: center;
+					background-size: cover;
+				}
+         table { background-color: lightblue;
+                 border-collapse: collapse;
+                 border: 1px solid gray; }
+         td    { padding: 5px; }
+         tr:nth-child(odd) { background-color: white; }
+		 
+		 .sub  {	position: relative;
+					bottom: -40px;		}
+					
+		.sup {    position: relative;
+				  bottom: -100px;		}
+      </style>
+   </head>
+    <body background="earth.png">
+		<div align="center" style="background-color:black; height:40px; width:100%; position:absolute; left:0px; top:0px;">
+			<button type="button" onclick="progress3()" ><img src="search.png" width="75" height="39"  style="position:absolute; top:0.5px;left:375px;"></button>
+			<button type="button" onclick="progress5()" ><img src="chart.png" width="75" height="39" type="button" style="position:absolute; top:0.5px;left:450.5px;"></button>
+			<button type="button" onclick="progress4()" ><img src="map.png" width="75" height="39" type="button" style="position:absolute; top:0.5px;left:526px;"></button>
+		</div> 	
+	<div class="sub" align="center">
+		<div  id="curve_chart"  style="width: 900px; height: 500px"></div>
+	</div>
+   </body>
+</html>
